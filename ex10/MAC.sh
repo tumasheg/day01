@@ -1,1 +1,1 @@
-ifconfig -a | grep "^\tether" | sed "s/<TAB>//g"
+ifconfig -a | grep "^\tether" | cut -c 2-24
